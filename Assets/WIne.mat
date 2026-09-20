@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: WIne
-  m_Shader: {fileID: -6465566751694194690, guid: 32435754484c79445b410295ed6bccad, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 26112a2e22d6c8b4fa784e2570b37a4f, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []

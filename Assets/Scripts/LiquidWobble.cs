@@ -37,8 +37,8 @@ public class LiquidWobble : MonoBehaviour
         Vector3 velocity = (lastPos - transform.position) / Time.deltaTime;
         Vector3 angularVelocity = transform.eulerAngles - lastRot;
 
-        wobbleAmountX += Mathf.Clamp((velocity.x + (angularVelocity.z * 0.2f)) * maxWobble, -maxWobble, maxWobble);
-        wobbleAmountZ += Mathf.Clamp((velocity.z + (angularVelocity.x * 0.2f)) * maxWobble, -maxWobble, maxWobble);
+        wobbleAmountX += Mathf.Clamp((velocity.z + (angularVelocity.z * 0.2f)) * maxWobble, -maxWobble, maxWobble);
+        wobbleAmountZ += Mathf.Clamp((velocity.x + (angularVelocity.x * 0.2f)) * maxWobble, -maxWobble, maxWobble);
 
         Shader.SetGlobalFloat("_wobbleX", wobbleX);
         Shader.SetGlobalFloat("_wobbleZ", wobbleZ);
