@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class LiquidWobble : MonoBehaviour
 {
-    private static int RotXHash = Shader.PropertyToID("_rotx");
-    private static int RotZHash = Shader.PropertyToID("_rotz");
+    private static int RotXHash = Shader.PropertyToID("_RotationX");
+    private static int RotZHash = Shader.PropertyToID("_RotationZ");
 
     [Header("Wobble Settings")]
     [SerializeField, Range(0f, 1f)] private float maxWobble = 0.3f;
@@ -23,7 +23,7 @@ public class LiquidWobble : MonoBehaviour
         lastRot = transform.rotation.eulerAngles;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         time += Time.deltaTime;
 
