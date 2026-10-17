@@ -97,7 +97,7 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _Float: 0
+    - _Float: 1.95
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -117,7 +117,7 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     - _amp: 0.02
-    - _freq: 10
+    - _freq: 5
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
